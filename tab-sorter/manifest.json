@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Sorter",
+  "version": "1.0",
+  "description": "Chrome 탭을 정렬하는 확장 프로그램",
+  "permissions": ["tabs", "windows"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon-128.png",
+      "48": "icon-128.png",
+      "128": "icon-128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon-128.png",
+    "48": "icon-128.png",
+    "128": "icon-128.png"
+  }
+} 
